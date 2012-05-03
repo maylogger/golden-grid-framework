@@ -1,0 +1,22 @@
+//
+// Simple elastic gutters
+// Note: box-sizing will not work in IE6-8
+//
+
+@media screen and (min-width: 0px) {
+  .border-box {
+    padding: 0 ( $ggs-line / 2 / $ggs-em * 1em );
+    @include box-sizing(border-box);
+  }
+}
+
+//
+// Fixes for IE6-8
+// http://jonikorpi.com/leaving-old-IE-behind/
+//
+
+.ie body {
+  width: 640px;
+  margin: 0 auto;
+  font-size: 100%;
+}

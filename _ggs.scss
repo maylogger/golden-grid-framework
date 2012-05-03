@@ -1,0 +1,71 @@
+// Golden Grid System (1.0) <http://goldengridsystem.com/>
+// by Joni Korpi            <http://jonikorpi.com/>
+// licensed under MIT       <http://opensource.org/licenses/mit-license.php>
+//
+// Compass Extension
+// by evenwu                <http://evendesign.tw>
+
+// general setting ------------------------------
+
+$ggs-font-size: 16 !default;
+$ggs-line: 24 !default;
+
+$ggs-column: 100% / 18 !default;
+$ggs-em: $ggs-font-size * 1 !default;
+
+// media setting ------------------------------
+// name
+
+$ggs-phone-media-name:          p   !default;
+$ggs-phone-wide-media-name:     pw  !default;
+$ggs-tablet-media-name:         t   !default;
+$ggs-tablet-wide-media-name:    tw  !default;
+$ggs-desktop-media-name:        d   !default;
+$ggs-desktop-wide-media-name:   dw  !default;
+$ggs-desktop-wide2-media-name:  dw2 !default;
+$ggs-desktop-wide3-media-name:  dw3 !default;
+
+// phone portrait
+$ggs-phone-all-columns: 4 !default;
+$ggs-phone-columns: 4 !default;
+
+// phone landscape
+$ggs-phone-wide-all-columns: 4 !default;
+$ggs-phone-wide-columns: 4 !default;
+
+// tablet portrait
+$ggs-tablet-all-columns: 8 !default;
+$ggs-tablet-columns: 6 !default;
+
+// tablet landscape
+$ggs-tablet-wide-all-columns: 8 !default;
+$ggs-tablet-wide-columns: 8 !default;
+
+// laptop and small desktop
+$ggs-desktop-all-columns: 8 !default;
+$ggs-desktop-columns: 8 !default;
+
+// desktop
+$ggs-desktop-wide-all-columns: 8 !default;
+$ggs-desktop-wide-columns: 8 !default;
+
+// big desktop
+$ggs-desktop-wide2-all-columns: 8 !default;
+$ggs-desktop-wide2-columns: 6 !default;
+
+// full-hd & up
+$ggs-desktop-wide3-all-columns: 16 !default;
+$ggs-desktop-wide3-columns: 10 !default;
+
+// end
+
+$base-font-size: $ggs-font-size * 1px;
+$base-line-height: $ggs-line * 1px;
+
+@import "compass";
+@include global-reset;
+@import "grid";
+@import "border-box";
+@import "font-zoom";
+@import "responsive";
+@import "utility";

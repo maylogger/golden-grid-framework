@@ -1,0 +1,82 @@
+.row {
+  @include pie-clearfix;
+}
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+@mixin ggs-grid( $media, $all-columns, $columns ) {
+  @include ggs-container( $all-columns, $columns );
+  @for $i from 1 through $columns {
+    .#{$media}-#{$i} {
+      width: $i / $columns * 100%;
+      @extend .border-box;
+      float: left;
+    }
+    .#{$media}-push-#{$i} {
+      left: $i / $columns * 100%;
+    }
+    .#{$media}-pull-#{$i} {
+      left: - $i / $columns * 100%;
+    }
+  }
+  // 100%
+  .#{$media}-all {
+    width: 100%;
+    @extend .border-box;
+    float: left;
+  }
+  .#{$media}-push-all {
+    left: 100%;
+  }
+  .#{$media}-pull-all {
+    left: -100%;
+  }
+  // 50%
+  .#{$media}-half {
+    width: 50%;
+    @extend .border-box;
+    float: left;
+  }
+  .#{$media}-push-half {
+    left: 50%;
+  }
+  .#{$media}-pull-half {
+    left: -50%;
+  }
+  // 33%
+  .#{$media}-one-third {
+    width: 100% / 3;
+    @extend .border-box;
+    float: left;
+  }
+  .#{$media}-push-one-third {
+    left: 100% / 3;
+  }
+  .#{$media}-pull-one-third {
+    left: - 100% / 3;
+  }
+  // 25%
+  .#{$media}-quarter {
+    width: 25%;
+    @extend .border-box;
+    float: left;
+  }
+  .#{$media}-push-quarter {
+    left: 25%;
+  }
+  .#{$media}-push-quarter {
+    left: -25%;
+  }
+}
+
+@mixin ggs-container( $all-columns, $columns ) {
+  .container {
+    width: auto;
+    margin: 0 #{ ( 18 - $columns / $all-columns * 16 ) / 2 * $ggs-column };
+  }
+}

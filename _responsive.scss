@@ -1,0 +1,55 @@
+@include ggs-grid(
+  $ggs-phone-media-name,
+  $ggs-phone-all-columns,
+  $ggs-phone-columns
+);
+
+@media screen and (min-width: 480px) {
+  @include ggs-grid(
+    $ggs-phone-wide-media-name,
+    $ggs-phone-wide-all-columns,
+    $ggs-phone-wide-columns
+  );
+}
+@media screen and (min-width: 640px) {
+  @include ggs-grid(
+    $ggs-tablet-media-name,
+    $ggs-tablet-all-columns,
+    $ggs-tablet-columns
+  );
+}
+@media screen and (min-width: 769px) {
+  @include ggs-grid(
+    $ggs-tablet-wide-media-name,
+    $ggs-tablet-wide-all-columns,
+    $ggs-tablet-wide-columns
+  );
+}
+@media screen and (min-width: 1024px) {
+  @include ggs-grid(
+    $ggs-desktop-media-name,
+    $ggs-desktop-all-columns,
+    $ggs-desktop-columns
+  );
+}
+@media screen and (min-width: 1280px) {
+  @include ggs-grid(
+    $ggs-desktop-wide-media-name,
+    $ggs-desktop-wide-all-columns,
+    $ggs-desktop-wide-columns
+  );
+}
+@media screen and (min-width: 1600px) {
+  @include ggs-grid(
+    $ggs-desktop-wide2-media-name,
+    $ggs-desktop-wide2-all-columns,
+    $ggs-desktop-wide2-columns
+  );
+}
+@media screen and (min-width: 1900px) {
+  @include ggs-grid(
+    $ggs-desktop-wide3-media-name,
+    $ggs-desktop-wide3-all-columns,
+    $ggs-desktop-wide3-columns
+  );
+}
