@@ -23,7 +23,7 @@
         .columns.d-3
         .columns.d-5
 
-desktop 裡面的 columns 設定簡稱為 d，而當你這樣設定時，他只會影響 desktop 或比 desktop 還要大的裝置。
+desktop 裡面的 columns 設定簡稱為 d，而當你這樣設定時，他只會影響 desktop 以及比 desktop 還要大的裝置。
 
 以下是裝置簡稱對照表
 
