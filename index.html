@@ -24,6 +24,10 @@
         -ms-user-select: none;
         user-select: none;
       }
+      .container {
+        position: relative;
+        z-index: 10;
+      }
       .container,
       .columns {
         -webkit-transition: all .5s;
@@ -74,10 +78,22 @@
         font-size: 24px;
         line-height: 1;
       }
+      .decor {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        top: 36px;
+        left: 0;
+        text-indent: 6px;
+        text-align: center;
+        font-size: 190px;
+        color: rgb(241, 235, 222);
+        text-shadow: 0 1px 0 white;
+        letter-spacing: 12px;
+      }
     </style>
   </head>
   <body>
-
       <div class="container">
           <header class="row">
               <div class="column">
@@ -86,6 +102,7 @@
                   <p>請縮放視窗寬度或使用各種不同裝置看效果</p>
               </div>
           </header>
+          
 
           <h3>Demo 1</h3>
           <div class="row">
@@ -164,6 +181,7 @@
 
 
       </div>
+      <div class="decor">GG</div>
   <script type="text/javascript" src="javascripts/ggs.js"></script>
   <script type="text/javascript">(function() {var jf = document.createElement('script'); jf.type = 'text/javascript'; jf.async = true;jf.src = 'http://ds.justfont.com/core/js/v1.0/7b877747pvHCmpLX_7aZ8FK_YXYMGaZnbM3NCKXkw8PK5xsh-Iw6KBLSE1itaYdTofz1auIYGkxnHXL0Da22bDjcnefH9PmC4md7nTKNf4pKpWwtniR3IOS75GIbw4VSLP6hdAx7i3mwxMvCOK9l23g59-7Ac3VDTUF3UWl67Vk9_IwrwNw=.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(jf,s);})();</script>
   </body>
