@@ -5,27 +5,33 @@ Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http:
 
 Golden Grid Framework 有以下特性：
 
-- Respinsive Design 響應式設計
 - Fluid Grid System 流動格線系統  
 來自於 [massimo vignellis's unigrid](http://www.aisleone.net/2010/design/massimo-vignellis-unigrid-system/) 與 [DIN paper system](http://en.wikipedia.org/wiki/Paper_size#The_international_standard:_ISO_216)
+- Respinsive Design 響應式設計
 - 可以針對不同裝置任意修改格線數量 (必須使用 scss 重新編譯)
 - 採用 mobile first 設計方式
-- 不支援 media query 的瀏覽器會看到手機版
+- 不支援 media query 的瀏覽器會看到手機版（對付舊 IE）
 
 ### 裝置對照表
 
-| media                              | prefix | width       | all columns | container columns |
-|------------------------------------|--------|-------------|-------------|-------------------|
-| phone (portait)                    | p      | 0 - 479     | 4           | 4                 |
-| phone wide (landscape)             | pw     | 480 - 639   | 4           | 4                 |
-| tablet (portait)                   | t      | 640 - 767   | 8           | 6                 |
-| tablet wide (landscape)            | tw     | 768 - 1023  | 8           | 8                 |
-| desktop                            | d      | 1024 - 1279 | 8           | 8                 |
-| desktop wide                       | dw     | 1280 - 1599 | 8           | 8                 |
-| desktop wide level 2               | dw2    | 1600 - 1899 | 8           | 6                 |
-| desktop wide level 3 (full hd & up)| dw3    | 1900 - up   | 16          | 10                |
+- **media** - 想使用的裝置
+- **prefix** - columns 設定寬度時要使用的 prefix 前綴文字
+- **width** - 各media限制的裝置寬度
+- **all columns** - 裝置全畫面的 columns 數量
+- **container columns** - 內容容器 ``.container`` 限制可使用的 columns 數量。
 
-如果你對這份預設值有意見，可以修改 ``scss/ggs.scss`` 裡面的參數。
+| media                              | prefix  | width       | all columns | container columns |
+|------------------------------------|---------|-------------|-------------|-------------------|
+| phone (portait)                    | p-      | 0 - 479     | 4           | 4                 |
+| phone wide (landscape)             | pw-     | 480 - 639   | 4           | 4                 |
+| tablet (portait)                   | t-      | 640 - 767   | 8           | 6                 |
+| tablet wide (landscape)            | tw-     | 768 - 1023  | 8           | 8                 |
+| desktop                            | d-      | 1024 - 1279 | 8           | 8                 |
+| desktop wide                       | dw-     | 1280 - 1599 | 8           | 8                 |
+| desktop wide level 2               | dw2-    | 1600 - 1899 | 8           | 6                 |
+| desktop wide level 3 (full hd & up)| dw3-    | 1900 - up   | 16          | 10                |
+
+如果您不喜歡這份預設，可以修改 ``scss/ggs.scss`` 裡面的參數。
 
 ## 使用說明
 
