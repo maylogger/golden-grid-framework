@@ -4,6 +4,8 @@
 
 ## How to use
 
+### grid
+
 你會用到這幾個 class
 
 - .container
@@ -38,3 +40,6 @@
 | desktop wide                       | dw     | 1280 - 1599 | 8           | 8                 |
 | desktop wide level 2               | dw2    | 1600 - 1899 | 8           | 6                 |
 | desktop wide level 3 (full hd & up)| dw3    | 1900 - up   | 16          | 10                |
+
+如果你想修改這份預設值，可以修改 ``scss/ggs.scss`` 裡面的參數。
+
