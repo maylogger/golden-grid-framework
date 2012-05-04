@@ -91,6 +91,6 @@ Golden Grid Framework 有以下特性：
 
 ## License
 
-Compass / SCSS developed by [@evenwu](http://twitter.com/#!/evenwu/)
+Compass / SCSS developed by [evenwu](http://evendesign.tw) / [@evenwu](http://twitter.com/#!/evenwu/)
 
 Licensed under [MIT](http://opensource.org/licenses/mit-license.php).
