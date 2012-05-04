@@ -30,7 +30,7 @@ Golden Grid Framework 有以下特性：
 | desktop wide level 2               | dw2-    | 1600 - 1899 | 8           | 6                 |
 | desktop wide level 3 (full hd & up)| dw3-    | 1900 - up   | 16          | 10                |
 
-如果您不喜歡這份預設，可以修改 ``scss/ggs.scss`` 裡面的參數。
+如果您不喜歡這份預設值，可以修改 ``scss/ggs.scss`` 裡面的參數。
 
 ## Grid 格線系統
 
@@ -88,6 +88,12 @@ Golden Grid Framework 有以下特性：
 如果你對於預設值不滿意，可以自行修改 ``scss/ggs.scss`` 裡面的參數，重新編譯你自己的 CSS。
 
 如果你對這個 framework 設計不甚滿意，拜託送我 pull request!!
+
+## 進度
+
+目前的說明文件只寫了 grid 的部份。事實上本專案還有 font-zoom.scss 以及 utility.scss 可用。
+
+就等有空再寫了！
 
 ## License
 
