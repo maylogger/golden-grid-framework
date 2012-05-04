@@ -83,7 +83,14 @@ Golden Grid Framework 有以下特性：
         .columns.d-3.t-2.tw-3
         .columns.d-5.t-4.tw-5
 
-這個 framework 就是這麼麻煩！這麼笨！
+這個 framework 就是這麼笨！
 
 如果你對於預設值不滿意，可以自行修改 ``scss/ggs.scss`` 裡面的參數，重新編譯你自己的 CSS。
 
+如果你對這整個 framework 都不滿意，拜託送我 pull request!!
+
+## License
+
+Compass / SCSS developed by [@evenwu](http://twitter.com/#!/evenwu/)
+
+Licensed under [MIT](http://opensource.org/licenses/mit-license.php).
