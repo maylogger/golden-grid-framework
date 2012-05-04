@@ -1,6 +1,6 @@
 # Golden Grid Framework
 
-Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http://goldengridsystem.com/ 概念，改寫為可立即使用的 scss/compass。
+Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http://goldengridsystem.com/ 概念，改寫為可立即使用的 scss/compass，
 以及現成的 CSS ``ggs.css`` 可讓大家輕鬆入門使用的格線系統。
 
 Golden Grid Framework 有以下特性：
@@ -91,6 +91,6 @@ Golden Grid Framework 有以下特性：
 
 ## License
 
-Compass / SCSS developed by [evenwu](http://evendesign.tw) / [@evenwu](http://twitter.com/#!/evenwu/)
+SCSS developed by [evenwu](http://evendesign.tw) / [@evenwu](http://twitter.com/#!/evenwu/)
 
 Licensed under [MIT](http://opensource.org/licenses/mit-license.php).
