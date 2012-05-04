@@ -77,7 +77,7 @@ ender.domReady(function () {
 /*  Create CSS */
     var styles = '\
         html{height:100%;position:relative;}\
-        #ggs-switch{position:fixed;top:24px;left:50%;margin-left:-30px;z-index:9500; cursor:pointer; width: 24px; padding: 18px 18px 14px; opacity:'+switchOpacity+'; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); -webkit-transition: all 0.145s ease-out; -moz-transition: all 0.145s ease-out; -ms-transition: all 0.145s ease-out; transition: all 0.145s ease-out;}\
+        #ggs-switch{position:fixed;top:36px;left:50%;margin-left:-30px;z-index:9500; cursor:pointer; width: 24px; padding: 18px 18px 14px; opacity:'+switchOpacity+'; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); -webkit-transition: all 0.145s ease-out; -moz-transition: all 0.145s ease-out; -ms-transition: all 0.145s ease-out; transition: all 0.145s ease-out;}\
         .ggs-switchBar {background: '+switchColor+'; height: 4px; margin-bottom: 4px;}\
         .ggs-animated #ggs-switch {-webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); transform: rotate(0deg);}\
         .ggs-guide{position:absolute;top:0;z-index:9000;height:100%;margin-left:-0.75em;border:solid '+guideColor+';border-width:0 0.75em;background:'+guideColor+';opacity:'+guideOpacity+'; -webkit-transition: all 0.235s ease-out; -moz-transition: all 0.235s ease-out; -ms-transition: all 0.235s ease-out; transition: all 0.235s ease-out;}\
