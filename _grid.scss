@@ -1,3 +1,7 @@
+body {
+  @include establish-baseline;
+}
+
 .row {
   @include pie-clearfix;
 }
@@ -77,6 +81,7 @@
 @mixin ggs-container( $all-columns, $columns ) {
   .container {
     width: auto;
-    margin: 0 #{ ( $ggs-base-columns - $columns / $all-columns * ($ggs-base-columns - 2) ) / 2 * 100% / $ggs-base-columns };
+    $margin: ( $ggs-base-columns - $columns / $all-columns * ($ggs-base-columns - 2 ) ) / 2 * 100% / $ggs-base-columns;
+    margin: 0 $margin;
   }
 }
