@@ -3,6 +3,21 @@
 Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http://goldengridsystem.com/ 概念，改寫為可立即使用的 scss/compass。
 以及現成的 CSS ``gss.css`` 可讓大家輕鬆入門使用這樣的格線系統。
 
+### 裝置對照表
+
+| media                              | prefix | width       | all columns | container columns |
+|------------------------------------|--------|-------------|-------------|-------------------|
+| phone (portait)                    | p      | 0 - 479     | 4           | 4                 |
+| phone wide (landscape)             | pw     | 480 - 639   | 4           | 4                 |
+| tablet (portait)                   | t      | 640 - 767   | 8           | 6                 |
+| tablet wide (landscape)            | tw     | 768 - 1023  | 8           | 8                 |
+| desktop                            | d      | 1024 - 1279 | 8           | 8                 |
+| desktop wide                       | dw     | 1280 - 1599 | 8           | 8                 |
+| desktop wide level 2               | dw2    | 1600 - 1899 | 8           | 6                 |
+| desktop wide level 3 (full hd & up)| dw3    | 1900 - up   | 16          | 10                |
+
+如果你對這份預設值有意見，可以修改 ``scss/ggs.scss`` 裡面的參數。
+
 ## 使用說明
 
 ### Grid 格線系統
@@ -48,26 +63,11 @@ Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http:
         .columns.d-3.t-2
         .columns.d-5.t-4
 
-如果又想 tablet 橫置 landscape 的欄寬比例，一樣看裝置對照表，tablet 橫置時有 8 欄可以使用，
+如果又想 tablet 橫置 landscape 的欄寬比例，一樣要查閱「裝置對照表」，tablet 橫置時有 8 欄可以使用，
 那我們想要左欄設定為 3 欄，右欄設定為 5 欄，就這樣寫：
 
     .container
       .row
         .columns.d-3.t-2.tw-3
         .columns.d-5.t-4.tw-5
-
-### 裝置對照表
-
-| media                              | prefix | width       | all columns | container columns |
-|------------------------------------|--------|-------------|-------------|-------------------|
-| phone (portait)                    | p      | 0 - 479     | 4           | 4                 |
-| phone wide (landscape)             | pw     | 480 - 639   | 4           | 4                 |
-| tablet (portait)                   | t      | 640 - 767   | 8           | 6                 |
-| tablet wide (landscape)            | tw     | 768 - 1023  | 8           | 8                 |
-| desktop                            | d      | 1024 - 1279 | 8           | 8                 |
-| desktop wide                       | dw     | 1280 - 1599 | 8           | 8                 |
-| desktop wide level 2               | dw2    | 1600 - 1899 | 8           | 6                 |
-| desktop wide level 3 (full hd & up)| dw3    | 1900 - up   | 16          | 10                |
-
-如果你對這份預設值有意見，可以修改 ``scss/ggs.scss`` 裡面的參數。
 
