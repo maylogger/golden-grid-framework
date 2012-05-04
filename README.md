@@ -87,7 +87,7 @@ Golden Grid Framework 有以下特性：
 
 如果你對於預設值不滿意，可以自行修改 ``scss/ggs.scss`` 裡面的參數，重新編譯你自己的 CSS。
 
-如果你對這整個 framework 都不滿意，拜託送我 pull request!!
+如果你對這個 framework 設計不甚滿意，拜託送我 pull request!!
 
 ## License
 
