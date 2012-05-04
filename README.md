@@ -28,14 +28,14 @@
 
 以下是裝置簡稱對照表
 
-| media | 簡稱 | 
-|-------|-----|
-| p  | phone (portait)        |
-| pw | phone wide (landscape) |
-| t  | tablet (portait)       |
-| tw | tablet wide (landscape)|
-| d  | desktop |
-| dw  | desktop wide |
-| dw2  | desktop wide level 2 |
-| dw3  | desktop wide level 3 (full hd & up)|
+| media                              | 簡稱 |
+|------------------------------------|-----|
+| phone (portait)                    | p   |
+| phone wide (landscape)             | pw  |
+| tablet (portait)                   | t   |
+| tablet wide (landscape)            | tw  |
+| desktop                            | d   |
+| desktop wide                       | dw  |
+| desktop wide level 2               | dw2 |
+| desktop wide level 3 (full hd & up)| dw3 |
 
