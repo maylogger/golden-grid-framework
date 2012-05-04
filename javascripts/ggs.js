@@ -6,8 +6,8 @@
 *	
 */
 
-var guideColor = 'rgba(0,0,0,.05)';
-var guideInnerColor = 'rgba(255,255,255, .3)';
+var guideColor = 'rgba(156, 194, 232, .05)';
+var guideInnerColor = 'rgba(0, 100, 255, .3)';
 var guideOpacity = '1';
 
 var switchColor = 'rgb(0,0,0)';
