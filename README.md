@@ -28,7 +28,7 @@
 
 以下是裝置簡稱對照表
 
-| media                              | prefix | width       | all-columns | container columns |
+| media                              | prefix | width       | all columns | container columns |
 |------------------------------------|--------|-------------|-------------|-------------------|
 | phone (portait)                    | p      | 0 - 479     | 4           | 4                 |
 | phone wide (landscape)             | pw     | 480 - 639   | 4           | 4                 |
