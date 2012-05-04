@@ -25,7 +25,26 @@
 
 desktop 裡面的 columns 設定簡稱為 d，而當你這樣設定時，他只會影響 desktop 以及比 desktop 還要大的裝置。
 
-以下是裝置簡稱對照表
+也就是說，如果你不針對 phone 或 tablet 特別做設定，那這些 columns 都會是自動撐滿 100% 的狀態。
+就會是依照上下順序排列，而不是左右兩欄。
+
+如果你也想讓 tablet 有左右兩欄，請參考下面的「裝置對照表」，tablet 直立時有 6 欄可以使用，
+那我們就打算在 tablet 直立時，左欄設定為 2 欄，右欄設定為 4 欄，就這樣寫：
+
+    .container
+      .row
+        .columns.d-3.t-2
+        .columns.d-5.t-4
+
+如果又想 tablet 橫置 landscape 的欄寬比例，一樣看裝置對照表，tablet 橫置時有 8 欄可以使用，
+那我們想要左欄設定為 3 欄，右欄設定為 5 欄，就這樣寫：
+
+    .container
+      .row
+        .columns.d-3.t-2.tw-3
+        .columns.d-5.t-4.tw-5
+
+### 裝置對照表
 
 | media                              | prefix | width       | all columns | container columns |
 |------------------------------------|--------|-------------|-------------|-------------------|
