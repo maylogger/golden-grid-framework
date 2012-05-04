@@ -3,6 +3,15 @@
 Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http://goldengridsystem.com/ 概念，改寫為可立即使用的 scss/compass。
 以及現成的 CSS ``gss.css`` 可讓大家輕鬆入門使用這樣的格線系統。
 
+Golden Grid Framework 有以下特性：
+
+- Respinsive Design 響應式設計
+- Fluid Grid System 流動格線系統  
+來自於 [massimo vignellis's unigrid](http://www.aisleone.net/2010/design/massimo-vignellis-unigrid-system/) 與 [DIN paper system](http://en.wikipedia.org/wiki/Paper_size#The_international_standard:_ISO_216)
+- 可以針對不同裝置任意修改格線數量 (必須使用 scss 重新編譯)
+- 採用 mobile first 設計方式
+- 不支援 media query 的瀏覽器會看到手機版
+
 ### 裝置對照表
 
 | media                              | prefix | width       | all columns | container columns |
@@ -55,7 +64,7 @@ Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http:
 也就是說，如果不針對 phone 或 tablet 特別做設定，那這些 columns 都會是自動撐滿 100% 的狀態。
 100% 寬就會由上往下順序排列，而不是左右兩欄。
 
-如果你也想讓 tablet 有左右兩欄，請參考下面的「裝置對照表」，tablet 直立時有 6 欄可以使用，
+如果想讓 tablet 也呈現為左右兩欄，請參考「裝置對照表」tablet 直立時有 6 欄可以使用，
 那我們就打算在 tablet 直立時，左欄設定為 2 欄，右欄設定為 4 欄，就這樣寫：
 
     .container
@@ -63,11 +72,15 @@ Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http:
         .columns.d-3.t-2
         .columns.d-5.t-4
 
-如果又想 tablet 橫置 landscape 的欄寬比例，一樣要查閱「裝置對照表」，tablet 橫置時有 8 欄可以使用，
+如果又想特別控制 tablet 橫置 landscape 的欄寬比例，查閱「裝置對照表」tablet 橫置時有 8 欄可以使用，
 那我們想要左欄設定為 3 欄，右欄設定為 5 欄，就這樣寫：
 
     .container
       .row
         .columns.d-3.t-2.tw-3
         .columns.d-5.t-4.tw-5
+
+這個 framework 就是這麼麻煩！這麼笨！
+
+如果你對於預設值不滿意，可以自行修改 ``scss/ggs.scss`` 裡面的參數，重新編譯你自己的 CSS。
 
