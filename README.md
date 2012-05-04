@@ -13,9 +13,9 @@ Golden Grid Framework 有以下特性：
 
 ## 裝置對照表
 
-- **media** - 想使用的裝置
+- **media** - 設定影響的裝置
 - **prefix** - columns 設定寬度時要使用的 prefix 前綴文字
-- **width** - 各media限制的裝置寬度
+- **width** - 各 media 設定的裝置寬度
 - **all columns** - 裝置全畫面的 columns 數量
 - **container columns** - 內容容器 ``.container`` 限制可使用的 columns 數量。
 
