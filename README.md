@@ -5,14 +5,13 @@ Golden Grid Framework 是從 [Joni Korpi](http://jonikorpi.com/) 提出的 http:
 
 Golden Grid Framework 有以下特性：
 
-- Fluid Grid System 流動格線系統  
-來自於 [massimo vignellis's unigrid](http://www.aisleone.net/2010/design/massimo-vignellis-unigrid-system/) 與 [DIN paper system](http://en.wikipedia.org/wiki/Paper_size#The_international_standard:_ISO_216)
+- Fluid Grid System 流動格線系統，來自於 [massimo vignellis's unigrid](http://www.aisleone.net/2010/design/massimo-vignellis-unigrid-system/) 與 [DIN paper system](http://en.wikipedia.org/wiki/Paper_size#The_international_standard:_ISO_216)
 - Respinsive Design 響應式設計
 - 可以針對不同裝置任意修改格線數量 (必須使用 scss 重新編譯)
 - 採用 mobile first 設計方式
 - 不支援 media query 的瀏覽器會看到手機版（對付舊 IE）
 
-### 裝置對照表
+## 裝置對照表
 
 - **media** - 想使用的裝置
 - **prefix** - columns 設定寬度時要使用的 prefix 前綴文字
@@ -33,9 +32,7 @@ Golden Grid Framework 有以下特性：
 
 如果您不喜歡這份預設，可以修改 ``scss/ggs.scss`` 裡面的參數。
 
-## 使用說明
-
-### Grid 格線系統
+## Grid 格線系統
 
 你會用到這幾個 class
 ``.container`` ``.row`` ``.column`` or ``.columns``
