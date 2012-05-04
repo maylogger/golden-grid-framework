@@ -7,12 +7,9 @@
 ### grid
 
 你會用到這幾個 class
+``.container`` ``.row`` ``.column`` or ``.columns``
 
-- .container
-- .row
-- .column or .columns
-
-一個基本的 2 欄 grid 架構如下
+一個基本的 2 欄 grid 的 HTML 架構如下
 
     .container
       .row
@@ -26,7 +23,7 @@
         .columns.d-3
         .columns.d-5
 
-是的，desktop 裡面的 columns 設定簡稱為 d，而當你這樣設定時，他只會影響 desktop 或比 desktop 還要大的裝置。
+desktop 裡面的 columns 設定簡稱為 d，而當你這樣設定時，他只會影響 desktop 或比 desktop 還要大的裝置。
 
 以下是裝置簡稱對照表
 
